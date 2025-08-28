@@ -1,0 +1,168 @@
+/* Global Styles */
+:root {
+  --primary: #3b82f6; /* Tailwind blue-500 */
+  --secondary: #ef4444; /* Tailwind red-500 */
+  --accent: #10b981; /* Tailwind green-500 */
+  --bg-dark: #0f172a; /* slate-900 */
+  --bg-light: #1e293b; /* slate-800 */
+  --text-light: #f1f5f9; /* slate-100 */
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, var(--bg-dark), var(--bg-light));
+  color: var(--text-light);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+}
+
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 1.5em var(--primary));
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.2rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}
+
+/* Text */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: #cbd5e1; /* slate-400 */
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: var(--accent);
+}
+
+/* Utility */
+.read-the-docs {
+  color: #94a3b8; /* slate-400 */
+  font-size: 0.9rem;
+}
+/* Global Styles */
+:root {
+  --primary: #3b82f6; /* Tailwind blue-500 */
+  --secondary: #ef4444; /* Tailwind red-500 */
+  --accent: #10b981; /* Tailwind green-500 */
+  --bg-dark: #0f172a; /* slate-900 */
+  --bg-light: #1e293b; /* slate-800 */
+  --text-light: #f1f5f9; /* slate-100 */
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, var(--bg-dark), var(--bg-light));
+  color: var(--text-light);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+}
+
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 1.5em var(--primary));
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.2rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}
+
+/* Text */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: #cbd5e1; /* slate-400 */
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: var(--accent);
+}
+
+/* Utility */
+.read-the-docs {
+  color: #94a3b8; /* slate-400 */
+  font-size: 0.9rem;
+}
