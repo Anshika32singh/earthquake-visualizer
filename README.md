@@ -22,5 +22,5 @@ cd earthquake-visualizer
 npm install
 npm run dev
 
-Live demo link:-
-https://y5k86c-5173.csb.app/
+## Live Demo
+Check out the working app: [Earthquake Visualizer](https://y5k86c-5173.csb.app/)
